@@ -1,0 +1,71 @@
+﻿<ion-view title="Create Account">
+
+  <ion-nav-bar class="bar-stable">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content overflow-scroll="true" padding="true">
+
+    <img class="logo" src="img/firebase.png" alt="">
+
+    <form name="createForm" novalidate="" ng-submit="createUser(createForm, user)">
+
+      <ion-list>
+
+        <!-- name field -->
+        <ion-item class="item-input"
+               ng-class="{ 'has-errors' : createForm.name.$invalid && !createForm.name.$pristine, 'no-errors' : createForm.name.$valid }">
+          <span class="input-label">Name</span>
+          <input type="text" name="name" ng-model="user.name" ng-minlength="5" ng-maxlength="20" required>
+        </ion-item>
+
+        <div class="error-container" ng-show="!createForm.name.$pristine && createForm.name.$error"
+             ng-messages="createForm.name.$error">
+          <div ng-messages-include="auth/form-errors.html"></div>
+        </div>
+        <!-- /name field -->
+
+        <!-- email field -->
+        <ion-item class="item-input"
+               ng-class="{ 'has-errors' : createForm.email.$invalid && !createForm.email.$pristine, 'no-errors' : createForm.email.$valid }">
+          <span class="input-label">Email</span>
+          <input type="email" name="email" ng-model="user.email" required>
+        </ion-item>
+
+        <div class="error-container" ng-show="createForm.email.$error && !createForm.email.$pristine"
+             ng-messages="createForm.email.$error">
+          <div ng-messages-include="auth/form-errors.html"></div>
+        </div>
+        <!-- /email field -->
+
+        <!-- password field -->
+        <ion-item class="item-input"
+               ng-class="{ 'has-errors' : createForm.password.$invalid && !createForm.password.$pristine && createForm.$submitted, 'no-errors' : createForm.password.$valid  && createForm.$submitted }">
+          <span class="input-label">Password</span>
+          <input type="password" name="password" ng-model="user.password" ng-minlength="5" ng-maxlength="20" required>
+        </ion-item>
+
+        <div class="error-container last-error-container"
+             ng-show="createForm.password.$error && !createForm.password.$pristine"
+             ng-messages="createForm.password.$error">
+          <div ng-messages-include="auth/form-errors.html"></div>
+        </div>
+        <!-- /password field -->
+
+      </ion-list>
+
+      <button class="button button-outline button-block button-positive" type="submit">
+        Create Account
+      </button>
+
+    </form>
+
+    <div class="text-center">
+      <a class="button button-clear button-positive" href='#/signin'>
+        Créer un compte
+      </a>
+    </div>
+
+  </ion-content>
+</ion-view>

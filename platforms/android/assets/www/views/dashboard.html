@@ -1,0 +1,25 @@
+﻿<ion-view view-title="CIM">
+  <ion-content>
+
+    <header>
+      <h1>Chat secret du CESI !</h1>
+    </header>
+
+    <h2 class="text-center">
+      Bravo !!!
+    </h2>
+
+    <p class="text-center">
+      Vous êtes connecté en tant que : <strong>{{ signedInUser.email }}</strong>
+    </p>
+
+    <div ng-hide="profile.name" class="text-center">
+      <p>
+        Merci de mettre à jours les informations complémentaires :)
+      </p>
+
+      <a href="#/app/account" class="button button-positive">Modifier mon compte</a>
+    </div>
+
+  </ion-content>
+</ion-view>

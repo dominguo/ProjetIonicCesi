@@ -1,0 +1,83 @@
+﻿<ion-view title="ICM - Connection">
+
+  <ion-nav-bar class="bar-stable">
+  </ion-nav-bar>
+
+  <ion-content class="padding">
+
+    <img class="logo" src="../img/logo.png" alt="Logo">
+
+    <form name="singinForm" novalidate="" ng-submit="signIn(singinForm, user)" >
+
+      <ion-list>
+
+        <ion-item class="item-input"
+                  ng-class="{ 'has-errors' : singinForm.email.$invalid && singinForm.$submitted, 'no-errors' : singinForm.email.$valid }">
+          <span class="input-label">Email</span>
+          <input type="email" name="email" ng-model="user.email" required>
+        </ion-item>
+        <div class="error-container" ng-show="singinForm.email.$error && singinForm.$submitted"
+             ng-messages="singinForm.email.$error">
+          <div ng-messages-include="auth/form-errors.html"></div>
+        </div>
+        <ion-item class="item-input"
+                  ng-class="{ 'has-errors' : singinForm.password.$invalid && singinForm.$submitted, 'no-errors' : singinForm.password.$valid }">
+          <span class="input-label">Mot de passe</span>
+          <input type="password" name="password" ng-model="user.password" ng-minlength="5" ng-maxlength="20" required>
+        </ion-item>
+
+        <div class="error-container last-error-container"
+             ng-show="singinForm.password.$error && singinForm.$submitted"
+             ng-messages="singinForm.password.$error">
+          <div ng-messages-include="auth/form-errors.html"></div>
+        </div>
+        <!-- /password field -->
+
+      </ion-list>
+
+      <button class="button button-outline button-block button-positive" type="submit">
+        Se connecter
+      </button>
+
+    </form>
+
+
+    <h5 class="text-center">Ou plus simplement : </h5>
+
+    <button class="button button-block button-positive login icon-left ion-social-facebook"
+            ng-click="singInSocial('facebook')">
+        Se connecter avec Faceboook
+    </button>
+
+    <button class="button button-block button-assertive login icon-left ion-social-google"
+            ng-click="singInSocial('google')">
+        Se connecter avec Google
+    </button>
+
+    <button class="button button-block button-calm login icon-left ion-social-twitter"
+            ng-click="singInSocial('twitter')">
+        Se connecter avec Twitter
+    </button>
+
+    <button class="button button-block button-dark login icon-left ion-social-github"
+            ng-click="singInSocial('github')">
+        Se connecter avec GitHub
+    </button>
+
+    <button class="button button-block button-clear button-positive" ui-sref='create'>
+      Créer un compte
+    </button>
+
+    <script id="my-modal.html" type="text/ng-template">
+      <ion-modal-view>
+        <ion-header-bar>
+          <h1 class="title">My Modal title</h1>
+        </ion-header-bar>
+        <ion-content>
+          :( ! {{ errorMessage }}
+        </ion-content>
+      </ion-modal-view>
+    </script>
+
+  </ion-content>
+</ion-view>

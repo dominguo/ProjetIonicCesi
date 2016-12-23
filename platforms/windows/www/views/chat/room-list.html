@@ -1,0 +1,51 @@
+﻿<ion-view view-title="rooms">
+    <ion-content>
+        <nav-page id="app-page">
+            <content has-header="true"
+                     has-footer="true"
+                     has-tabs="true"
+                     scroll="true"
+                     padding="true"
+                     on-refresh="onRefresh()"
+                     animate-nav="true">
+
+                <!-- for pull to refresh -->
+                <refresher></refresher>
+
+                <ion-list class="list list-ios">
+                    <ion-list-header class="item item-ios list-header list-header-ios">
+                        <div class="item-inner">
+                            <div class="input-wrapper">
+                                <!--template bindings={}--><ion-label class="label label-ios">
+                                    Liste des zones
+                                </ion-label>
+                            </div><!--template bindings={}-->
+                        </div>
+                        <div class="button-effect"></div>
+                    </ion-list-header>
+                    <a ng-repeat="room in rooms" href="#/app/rooms/{{room.id}}" class="item item-thumbnail-left">
+                          <img src="../img/talk-line.png"/>
+                        <h2>{{room.title}}</h2>
+                        <p>{{room.description}}</p>
+                    </a>
+
+
+
+
+                </ion-list>
+
+
+
+                <div class="tabs tabs-icon-left">
+                    <a class="tab-item" ng-click="openModal()">
+                        <i class="icon ion-plus"></i>
+                        Ajouter une zone de discussion
+                    </a>
+                </div>
+            </content>
+        </nav-page>
+
+
+    </ion-content>
+
+</ion-view>

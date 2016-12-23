@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Package IgnorableNamespaces="uap mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10">
+    <Identity Name="io.cordova.myapp090e7c" Publisher="CN=$username$" Version="0.0.1.0" />
+    <mp:PhoneIdentity PhoneProductId="087b6700-c2ab-11e6-a65f-cdfe6a93ab5b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+    <Properties>
+        <DisplayName>etienne-chat-secret</DisplayName>
+        <PublisherDisplayName>Etienne</PublisherDisplayName>
+        <Logo>images\StoreLogo.png</Logo>
+    </Properties>
+    <Dependencies>
+        <TargetDeviceFamily MaxVersionTested="10.0.10240.0" MinVersion="10.0.10240.0" Name="Windows.Universal" />
+    </Dependencies>
+    <Resources>
+        <Resource Language="x-generate" />
+    </Resources>
+    <Applications>
+        <Application Id="io.cordova.myapp090e7c" StartPage="ms-appx-web://io.cordova.myapp090e7c/www/views/index.html">
+            <uap:VisualElements BackgroundColor="#464646" Description="CordovaApp" DisplayName="etienne-chat-secret" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+                <uap:SplashScreen BackgroundColor="#ffffff" Image="images\splashscreen.png" />
+                <uap:DefaultTile ShortName="etienne-chat-secret" Square310x310Logo="images\Square310x310Logo.png" Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" />
+                <uap:InitialRotationPreference>
+                    <uap:Rotation Preference="portrait" />
+                    <uap:Rotation Preference="landscape" />
+                    <uap:Rotation Preference="landscapeFlipped" />
+                </uap:InitialRotationPreference>
+            </uap:VisualElements>
+            <uap:ApplicationContentUriRules>
+                <uap:Rule Match="ms-appx-web:///" Type="include" WindowsRuntimeAccess="all" />
+            </uap:ApplicationContentUriRules>
+        </Application>
+    </Applications>
+    <Capabilities>
+        <Capability Name="internetClient" />
+        <DeviceCapability Name="location" />
+    </Capabilities>
+</Package>

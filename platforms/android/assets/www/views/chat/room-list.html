@@ -1,0 +1,27 @@
+﻿<ion-view view-title="Zones">
+    <ion-content>
+        <ion-list class="list list-md">
+            <ion-list-header class="item item-ios list-header list-header-ios">
+                <div class="item-inner">
+                    <div class="input-wrapper">
+                        <!--template bindings={}--><ion-label class="label label-ios">
+                            Liste des zones
+                        </ion-label>
+                    </div><!--template bindings={}-->
+                </div>
+                <div class="button-effect"></div>
+            </ion-list-header>
+            <a ng-repeat="room in rooms" href="#/app/rooms/{{room.id}}" class="item item-thumbnail-left">
+                <img src="../img/talk-line.png" />
+                <h2>{{room.title}}</h2>
+                <p>{{room.description}}</p>
+            </a>
+        </ion-list>
+
+       
+        <div class="bar bar-footer">
+            <h1 class="title">Ajouter une zone</h1>
+            <button class="button" ng-click="openModal()"><i class="icon ion-plus"></i></button>
+        </div>
+    </ion-content>
+</ion-view>

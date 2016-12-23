@@ -1,0 +1,47 @@
+﻿<ion-view view-title="Mon compte">
+  <ion-content>
+    <ion-list>
+
+      <ion-item class="item-avatar">
+
+        <img ng-if="signedInUser.photoURL" src="{{ signedInUser.photoURL }}">
+        <img ng-if="!signedInUser.photoURL" src="../../logo.png">
+
+        <h2 ng-if="signedInUser.displayName">{{ signedInUser.displayName }}</h2>
+        <h2 ng-if="!signedInUser.displayName">{{ profile.name }}</h2>
+        <p>{{ signedInUser.email }}</p>
+      </ion-item>
+
+      <ion-item class="item-divider">
+        Modifier mon compte
+      </ion-item>
+
+      <ion-item class="item-input item-floating-label">
+        <span class="input-label">Nom</span>
+        <input type="text" ng-model="profile.name" ng-change="profile.$save()" placeholder="Name">
+      </ion-item>
+
+      <ion-list>
+
+        <ion-item class="item-toggle">
+          Apple ?
+          <label class="toggle toggle-positive">
+            <input type="checkbox" ng-model="profile.setting" ng-change="profile.$save()">
+            <div class="track">
+              <div class="handle"></div>
+            </div>
+          </label>
+        </ion-item>
+
+        </ion-list>
+
+    </ion-list>
+  </ion-content>
+
+  <ion-footer-bar class="bar-assertive" ng-click="resetPassword()">
+    <h2 class="title">
+      Récuperer mon mot de passe
+    </h2>
+  </ion-footer-bar>
+
+</ion-view>

@@ -1,0 +1,23 @@
+﻿<ion-modal-view>
+    <ion-header-bar>
+        <h1 class="title">Création d'une Zone</h1>
+    </ion-header-bar>
+    <ion-content>
+        <form name="roomCreationForm" ng-submit="addNewRoom(roomCreationForm, room)">
+            <div class="list list-inset">
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Nom de la zone</span>
+                    <input type="text" placeholder="ex : Zone de dév..." ng-model="room.title" required>
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Déscription</span>
+                    <input type="text" placeholder="ex : node js techno ..." ng-model="room.description">
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-full button-positive">Créer la zone</button>
+                <button class="button button-full button-positive" ng-click="closeModal()">Annuler</button>
+            </div>
+        </form>
+    </ion-content>
+</ion-modal-view>

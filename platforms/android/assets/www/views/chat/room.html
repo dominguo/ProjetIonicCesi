@@ -1,0 +1,28 @@
+﻿<ion-view view-title="{{roomInformation.title}}">
+    <ion-content>
+        <nav-page title="title">
+            <div ng-repeat="message in messages" type="item-text-wrap">
+                <div class="card item-message">
+                    <div class="item-message-header">
+                        <div class="row">
+                            <small class="col"><b>{{message.user_name}}</b></small>
+                            <small class="col text-right">à {{message.created_at | date: 'short' }}</small>
+                        </div>
+                    </div>
+                    <div class="item-message-body item-text-wrap">
+                        {{message.content}}
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bar bar-footer">
+                <form name="messageCreationForm" ng-submit="submitAddMessage(messageCreationForm,message)">
+                    
+                        <input type="text" placeholder="test ..." ng-model="message.content" required>
+                        <button class="button button-positive">Envoyer</button>
+                </form>
+            </div>
+        </nav-page>
+    </ion-content>
+</ion-view>

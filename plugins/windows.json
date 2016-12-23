@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "etienne-chat-secret"
+        }
+    }
+}

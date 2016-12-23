@@ -1,0 +1,1 @@
+C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\AppPackages\CordovaApp.Windows_0.0.1.0_x64_debug_Test\CordovaApp.Windows_0.0.1.0_x64_debug.appx

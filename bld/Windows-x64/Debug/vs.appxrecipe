@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC-ETIENNE</Machine>
+    <WindowsUser>etienne</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myapp090e7c</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A9316640DA6869F60655207352EC5AD4630D2861E57B6AF83FAD4D3A907231B7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myapp090e7c_0.0.1.0_x64__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myapp090e7c_h35559jr9hy9m!io.cordova.myapp090e7c</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myapp090e7c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>0.0.1.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\build\windows\debug\x64\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T12:47:50.470</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T12:47:43.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T12:47:43.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T12:47:43.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T12:47:43.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-12-15T12:47:43.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T09:44:12.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-12-15T12:47:43.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T12:47:43.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T12:47:43.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\img\ben.png">
+      <PackagePath>www\img\ben.png</PackagePath>
+      <Modified>2016-12-15T12:47:39.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\img\ionic.png">
+      <PackagePath>www\img\ionic.png</PackagePath>
+      <Modified>2016-12-15T12:47:39.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\img\max.png">
+      <PackagePath>www\img\max.png</PackagePath>
+      <Modified>2016-12-15T12:47:39.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\img\mike.png">
+      <PackagePath>www\img\mike.png</PackagePath>
+      <Modified>2016-12-15T12:47:39.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\img\perry.png">
+      <PackagePath>www\img\perry.png</PackagePath>
+      <Modified>2016-12-15T12:47:39.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\controllers\controllers.js">
+      <PackagePath>www\controllers\controllers.js</PackagePath>
+      <Modified>2016-12-15T12:47:44.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-12-15T12:47:44.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-12-15T12:47:44.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-12-15T12:47:42.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-12-15T12:47:44.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+      <Modified>2016-12-15T12:47:44.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\js\chat.js">
+      <PackagePath>www\js\chat.js</PackagePath>
+      <Modified>2016-12-15T12:47:39.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\js\platformOverrides.js">
+      <PackagePath>www\js\platformOverrides.js</PackagePath>
+      <Modified>2016-12-15T12:47:43.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\js\winstore-jscompat.js">
+      <PackagePath>www\js\winstore-jscompat.js</PackagePath>
+      <Modified>2016-12-15T12:47:43.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-animate\angular-animate.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-animate\angular-animate.min.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-animate\index.js">
+      <PackagePath>www\lib\angular-animate\index.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-sanitize\angular-sanitize.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-sanitize\index.js">
+      <PackagePath>www\lib\angular-sanitize\index.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.min.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.min.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\common.js">
+      <PackagePath>www\lib\angular-ui-router\src\common.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\resolve.js">
+      <PackagePath>www\lib\angular-ui-router\src\resolve.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\state.js">
+      <PackagePath>www\lib\angular-ui-router\src\state.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\stateDirectives.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateDirectives.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\stateFilters.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateFilters.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\templateFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\templateFactory.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\urlMatcherFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlMatcherFactory.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\urlRouter.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlRouter.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\view.js">
+      <PackagePath>www\lib\angular-ui-router\src\view.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\viewDirective.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewDirective.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\src\viewScroll.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewScroll.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angularfire\dist\angularfire.js">
+      <PackagePath>www\lib\angularfire\dist\angularfire.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angularfire\dist\angularfire.min.js">
+      <PackagePath>www\lib\angularfire\dist\angularfire.min.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\angular.js">
+      <PackagePath>www\lib\angular\angular.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\angular.min.js">
+      <PackagePath>www\lib\angular\angular.min.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\index.js">
+      <PackagePath>www\lib\angular\index.js</PackagePath>
+      <Modified>2016-12-15T12:47:45.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-app-externs.js">
+      <PackagePath>www\lib\firebase\firebase-app-externs.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-app.js">
+      <PackagePath>www\lib\firebase\firebase-app.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-auth-externs.js">
+      <PackagePath>www\lib\firebase\firebase-auth-externs.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-auth.js">
+      <PackagePath>www\lib\firebase\firebase-auth.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-database-externs.js">
+      <PackagePath>www\lib\firebase\firebase-database-externs.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-database.js">
+      <PackagePath>www\lib\firebase\firebase-database.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-messaging-externs.js">
+      <PackagePath>www\lib\firebase\firebase-messaging-externs.js</PackagePath>
+      <Modified>2016-12-15T12:47:46.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-messaging.js">
+      <PackagePath>www\lib\firebase\firebase-messaging.js</PackagePath>
+      <Modified>2016-12-15T12:47:47.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-storage-externs.js">
+      <PackagePath>www\lib\firebase\firebase-storage-externs.js</PackagePath>
+      <Modified>2016-12-15T12:47:47.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase-storage.js">
+      <PackagePath>www\lib\firebase\firebase-storage.js</PackagePath>
+      <Modified>2016-12-15T12:47:47.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase.js">
+      <PackagePath>www\lib\firebase\firebase.js</PackagePath>
+      <Modified>2016-12-15T12:47:47.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\js\ionic-angular.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.js</PackagePath>
+      <Modified>2016-12-15T12:47:47.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\js\ionic-angular.min.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.min.js</PackagePath>
+      <Modified>2016-12-15T12:47:47.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\js\ionic.bundle.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.js</PackagePath>
+      <Modified>2016-12-15T12:47:48.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\js\ionic.bundle.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.min.js</PackagePath>
+      <Modified>2016-12-15T12:47:48.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\js\ionic.js">
+      <PackagePath>www\lib\ionic\js\ionic.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\js\ionic.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.min.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\cordova-plugin-console\www\console-via-logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\console-via-logger.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\cordova-plugin-console\www\logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\logger.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js">
+      <PackagePath>www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\services\services.js">
+      <PackagePath>www\services\services.js</PackagePath>
+      <Modified>2016-12-15T12:47:49.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-12-15T12:47:43.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\css\style.css">
+      <PackagePath>www\css\style.css</PackagePath>
+      <Modified>2016-12-15T12:47:39.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\angular-csp.css">
+      <PackagePath>www\lib\angular\angular-csp.css</PackagePath>
+      <Modified>2016-12-15T12:47:44.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\css\ionic.css">
+      <PackagePath>www\lib\ionic\css\ionic.css</PackagePath>
+      <Modified>2016-12-15T12:47:47.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\css\ionic.min.css">
+      <PackagePath>www\lib\ionic\css\ionic.min.css</PackagePath>
+      <Modified>2016-12-15T12:47:47.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\img\adam.jpg">
+      <PackagePath>www\img\adam.jpg</PackagePath>
+      <Modified>2016-12-15T12:47:39.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-animate\.bower.json">
+      <PackagePath>www\lib\angular-animate\.bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:40.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-animate\bower.json">
+      <PackagePath>www\lib\angular-animate\bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:45.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-animate\package.json">
+      <PackagePath>www\lib\angular-animate\package.json</PackagePath>
+      <Modified>2016-12-15T12:47:45.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-sanitize\.bower.json">
+      <PackagePath>www\lib\angular-sanitize\.bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:40.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-sanitize\bower.json">
+      <PackagePath>www\lib\angular-sanitize\bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:45.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-sanitize\package.json">
+      <PackagePath>www\lib\angular-sanitize\package.json</PackagePath>
+      <Modified>2016-12-15T12:47:45.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\.bower.json">
+      <PackagePath>www\lib\angular-ui-router\.bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:40.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\bower.json">
+      <PackagePath>www\lib\angular-ui-router\bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:45.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angularfire\.bower.json">
+      <PackagePath>www\lib\angularfire\.bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:40.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angularfire\bower.json">
+      <PackagePath>www\lib\angularfire\bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:46.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\.bower.json">
+      <PackagePath>www\lib\angular\.bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:40.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\bower.json">
+      <PackagePath>www\lib\angular\bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:45.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\package.json">
+      <PackagePath>www\lib\angular\package.json</PackagePath>
+      <Modified>2016-12-15T12:47:45.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\.bower.json">
+      <PackagePath>www\lib\firebase\.bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:40.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\bower.json">
+      <PackagePath>www\lib\firebase\bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:46.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\.bower.json">
+      <PackagePath>www\lib\ionic\.bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:41.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\bower.json">
+      <PackagePath>www\lib\ionic\bower.json</PackagePath>
+      <Modified>2016-12-15T12:47:47.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\tsconfig.json">
+      <PackagePath>www\lib\ionic\scss\tsconfig.json</PackagePath>
+      <Modified>2016-12-15T12:47:49.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-animate\angular-animate.min.js.map">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js.map</PackagePath>
+      <Modified>2016-12-15T12:47:40.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js.map">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js.map</PackagePath>
+      <Modified>2016-12-15T12:47:40.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\angular.min.js.map">
+      <PackagePath>www\lib\angular\angular.min.js.map</PackagePath>
+      <Modified>2016-12-15T12:47:40.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-animate\README.md">
+      <PackagePath>www\lib\angular-animate\README.md</PackagePath>
+      <Modified>2016-12-15T12:47:40.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-sanitize\README.md">
+      <PackagePath>www\lib\angular-sanitize\README.md</PackagePath>
+      <Modified>2016-12-15T12:47:40.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\CHANGELOG.md">
+      <PackagePath>www\lib\angular-ui-router\CHANGELOG.md</PackagePath>
+      <Modified>2016-12-15T12:47:40.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\CONTRIBUTING.md">
+      <PackagePath>www\lib\angular-ui-router\CONTRIBUTING.md</PackagePath>
+      <Modified>2016-12-15T12:47:40.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\README.md">
+      <PackagePath>www\lib\angular-ui-router\README.md</PackagePath>
+      <Modified>2016-12-15T12:47:40.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angularfire\README.md">
+      <PackagePath>www\lib\angularfire\README.md</PackagePath>
+      <Modified>2016-12-15T12:47:40.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\README.md">
+      <PackagePath>www\lib\angular\README.md</PackagePath>
+      <Modified>2016-12-15T12:47:40.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\README.md">
+      <PackagePath>www\lib\firebase\README.md</PackagePath>
+      <Modified>2016-12-15T12:47:41.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\README.md">
+      <PackagePath>www\lib\ionic\README.md</PackagePath>
+      <Modified>2016-12-15T12:47:42.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\api\angular-ui-router.d.ts">
+      <PackagePath>www\lib\angular-ui-router\api\angular-ui-router.d.ts</PackagePath>
+      <Modified>2016-12-15T12:47:40.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\firebase\firebase.d.ts">
+      <PackagePath>www\lib\firebase\firebase.d.ts</PackagePath>
+      <Modified>2016-12-15T12:47:41.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular-ui-router\LICENSE">
+      <PackagePath>www\lib\angular-ui-router\LICENSE</PackagePath>
+      <Modified>2016-12-15T12:47:40.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angularfire\LICENSE">
+      <PackagePath>www\lib\angularfire\LICENSE</PackagePath>
+      <Modified>2016-12-15T12:47:40.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\angular\angular.min.js.gzip">
+      <PackagePath>www\lib\angular\angular.min.js.gzip</PackagePath>
+      <Modified>2016-12-15T12:47:40.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\fonts\ionicons.eot">
+      <PackagePath>www\lib\ionic\fonts\ionicons.eot</PackagePath>
+      <Modified>2016-12-15T12:47:41.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\lib\ionic\fonts\ionicons.svg</PackagePath>
+      <Modified>2016-12-15T12:47:41.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\lib\ionic\fonts\ionicons.ttf</PackagePath>
+      <Modified>2016-12-15T12:47:41.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\fonts\ionicons.woff">
+      <PackagePath>www\lib\ionic\fonts\ionicons.woff</PackagePath>
+      <Modified>2016-12-15T12:47:41.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\ionic.scss">
+      <PackagePath>www\lib\ionic\scss\ionic.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\ionicons\ionicons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\ionicons.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-font.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_action-sheet.scss">
+      <PackagePath>www\lib\ionic\scss\_action-sheet.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_animations.scss">
+      <PackagePath>www\lib\ionic\scss\_animations.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_backdrop.scss">
+      <PackagePath>www\lib\ionic\scss\_backdrop.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_badge.scss">
+      <PackagePath>www\lib\ionic\scss\_badge.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_bar.scss">
+      <PackagePath>www\lib\ionic\scss\_bar.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_button-bar.scss">
+      <PackagePath>www\lib\ionic\scss\_button-bar.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_button.scss">
+      <PackagePath>www\lib\ionic\scss\_button.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_checkbox.scss">
+      <PackagePath>www\lib\ionic\scss\_checkbox.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_form.scss">
+      <PackagePath>www\lib\ionic\scss\_form.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_grid.scss">
+      <PackagePath>www\lib\ionic\scss\_grid.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_items.scss">
+      <PackagePath>www\lib\ionic\scss\_items.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_list.scss">
+      <PackagePath>www\lib\ionic\scss\_list.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_loading.scss">
+      <PackagePath>www\lib\ionic\scss\_loading.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_menu.scss">
+      <PackagePath>www\lib\ionic\scss\_menu.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_mixins.scss">
+      <PackagePath>www\lib\ionic\scss\_mixins.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_modal.scss">
+      <PackagePath>www\lib\ionic\scss\_modal.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_platform.scss">
+      <PackagePath>www\lib\ionic\scss\_platform.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_popover.scss">
+      <PackagePath>www\lib\ionic\scss\_popover.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_popup.scss">
+      <PackagePath>www\lib\ionic\scss\_popup.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_progress.scss">
+      <PackagePath>www\lib\ionic\scss\_progress.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_radio.scss">
+      <PackagePath>www\lib\ionic\scss\_radio.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_range.scss">
+      <PackagePath>www\lib\ionic\scss\_range.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_refresher.scss">
+      <PackagePath>www\lib\ionic\scss\_refresher.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_reset.scss">
+      <PackagePath>www\lib\ionic\scss\_reset.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_scaffolding.scss">
+      <PackagePath>www\lib\ionic\scss\_scaffolding.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_select.scss">
+      <PackagePath>www\lib\ionic\scss\_select.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_slide-box.scss">
+      <PackagePath>www\lib\ionic\scss\_slide-box.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_slides.scss">
+      <PackagePath>www\lib\ionic\scss\_slides.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_spinner.scss">
+      <PackagePath>www\lib\ionic\scss\_spinner.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_tabs.scss">
+      <PackagePath>www\lib\ionic\scss\_tabs.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_toggle.scss">
+      <PackagePath>www\lib\ionic\scss\_toggle.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_transitions.scss">
+      <PackagePath>www\lib\ionic\scss\_transitions.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_type.scss">
+      <PackagePath>www\lib\ionic\scss\_type.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_util.scss">
+      <PackagePath>www\lib\ionic\scss\_util.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\lib\ionic\scss\_variables.scss">
+      <PackagePath>www\lib\ionic\scss\_variables.scss</PackagePath>
+      <Modified>2016-12-15T12:47:42.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\views\chat-detail.html">
+      <PackagePath>www\views\chat-detail.html</PackagePath>
+      <Modified>2016-12-15T12:47:49.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\views\index.html">
+      <PackagePath>www\views\index.html</PackagePath>
+      <Modified>2016-12-15T12:47:42.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\views\login.html">
+      <PackagePath>www\views\login.html</PackagePath>
+      <Modified>2016-12-15T12:47:42.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\views\signup.html">
+      <PackagePath>www\views\signup.html</PackagePath>
+      <Modified>2016-12-15T12:47:42.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\views\tab-account.html">
+      <PackagePath>www\views\tab-account.html</PackagePath>
+      <Modified>2016-12-15T12:47:49.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\views\tab-chats.html">
+      <PackagePath>www\views\tab-chats.html</PackagePath>
+      <Modified>2016-12-15T12:47:49.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\views\tab-dash.html">
+      <PackagePath>www\views\tab-dash.html</PackagePath>
+      <Modified>2016-12-15T12:47:49.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\www\views\tabs.html">
+      <PackagePath>www\views\tabs.html</PackagePath>
+      <Modified>2016-12-15T12:47:49.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-12-15T12:47:39.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\etienne\Documents\Visual Studio 2015\Projects\etienne-chat-secret\etienne-chat-secret\platforms\windows\build\windows\debug\x64\win8.1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-12-15T12:47:50.176</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
